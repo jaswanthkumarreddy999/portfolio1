@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color-1.css">
     <script src="https://kit.fontawesome.com/9f8dc9c1f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
     <!-- main container start ---------------------------------------------------------------------------------->
@@ -499,7 +500,26 @@
          <!-- main content end -->
      </div>
      <!-- main container end ---------------------------------------------------------------------------------->
-    <!--  js files ----------------------------------------------------------------------------------------------->
+      <!-- Style Switcher Start -->
+       <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-skin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>            
+            <span class="color-6" onclick="setActiveStyle('color-6')"></span>
+        </div>
+       </div>
+     <!-- Style switcher end -->
+      <!--  js files ----------------------------------------------------------------------------------------------->
     <script src="js/script.js"></script>
 </body>
 </html>
