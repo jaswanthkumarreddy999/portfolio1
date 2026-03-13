@@ -533,6 +533,28 @@ h3.my-profession {
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    background-color: var(--bg-black-100);
+}
+.portfolio-info {
+    padding: 15px;
+}
+.portfolio-info h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.portfolio-info p.tech-stack {
+    font-size: 14px;
+    color: var(--skin-color);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.portfolio-info p {
+    font-size: 15px;
+    color: var(--text-black-700);
+    line-height: 1.6;
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
